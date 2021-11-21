@@ -1,0 +1,70 @@
+.mainBox{
+    margin:0;
+    padding: 0;
+}
+.main{
+    position: absolute;
+    width: 70%;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    /* width: 100vw;
+    height: 100vh; */
+}
+.firstSection{
+  padding: 10px;
+}
+
+.secondSection{
+   
+}
+.upperP{
+    height: 20%;
+    width:100%;
+    background-color: rgb(231, 220, 206)
+}
+.upper{
+    padding: 10px;
+    position: relative;
+    display: inline-block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+button:focus{
+    outline: none !important
+}
+
+
+.footerSection {
+    padding: 10px 0px;
+    width: 100%;
+    color: white;
+    background-color:#3b5998;
+    text-align: center;
+    margin-top: 2rem;
+    font-variant-caps: petite-caps;
+}
+
+main{
+    min-height: calc(100vh - 7.5rem);
+}
+.verticalNavlink{
+    display: flex;
+    color: black;
+    width: 100%;
+    text-decoration:none;
+    padding: .8em
+}
+
+.verticalNavlink:hover{
+    text-decoration:none;
+    color:black;
+}
+.verticalNavlink.active{
+    background-color: #3b5998;
+    color: white;
+}
+
+.verticalNavlink.active>div{
+    color: white;
+}
